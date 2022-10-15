@@ -84,8 +84,7 @@ jobs:
           images: |
             ${{ env.ghcr_docker }}
           tags: |
-            type=raw,value=latest,enable={{is_default_branch}}
-            type=semver,pattern={{version}},value=${{ steps.get_version.outputs.image_version }}
+            type=raw,value=latest
           labels: |
             org.opencontainers.image.authors=Efina
             org.opencontainers.image.title=Docker HaProxyEgg
