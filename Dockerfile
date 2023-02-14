@@ -1,4 +1,4 @@
-FROM haproxytech/haproxy-alpine:2.7.2@sha256:9fba38aff722e201d69e177827c101d913579d9428477bd0a60546b755be91f4
+FROM haproxytech/haproxy-alpine:2.7.3@sha256:fb12325299d001d9f4ef4c2e4b80ab0f1d52b6ea6e9f601f74cb07411e386c6d
 
 RUN adduser --disabled-password --home /home/container container
 
